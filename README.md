@@ -28,13 +28,8 @@ It is important to consider who a spa's audience is to narrow down what the TAM 
 There are only certain products and services that will be available to a single person spa.
 
 ### Services
-```
-python
-from MediSpaAssumptions import MediAssumptions
-services = MediAssumptions.services
-for i in services:
-    print(i[0])
-```
+<!-- SERVICES START -->
+<!-- SERVICES END -->
 
 ### Retail Products
 

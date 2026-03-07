@@ -1,0 +1,14 @@
+# .github/workflows/update_readme.yml
+name: Update README
+on: [push]
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python update_readme.py
+      - run: |
+          git config --global user.name "github-actions"
+          git add README.md
+          git commit -m "Auto-update README" || exit 0
+          git push
