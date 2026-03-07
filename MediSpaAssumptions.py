@@ -103,7 +103,7 @@ class MediAssumptions:
     def __init__(self,operating_hours_per_day=8, days_open_per_month=12):
         self.minutes_open_month = operating_hours_per_day * days_open_per_month * 60
         self.services = {
-            "remium Facial": {"avg_price": 150,  "sessions_per_month": 3, "growth_rate": 0.04, "time_per_session": 90},
+            "Premium Facial": {"avg_price": 150,  "sessions_per_month": 3, "growth_rate": 0.04, "time_per_session": 90},
             "European Facial": {"avg_price": 120,  "sessions_per_month": 5, "growth_rate": 0.04, "time_per_session": 75},
             "Express Facial": {"avg_price": 90,  "sessions_per_month": 21, "growth_rate": 0.06, "time_per_session": 45},
             "Lux Facial": {"avg_price": 150,  "sessions_per_month": 4, "growth_rate": 0.04, "time_per_session": 60},
