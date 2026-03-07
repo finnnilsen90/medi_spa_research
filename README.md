@@ -27,8 +27,18 @@ It is important to consider who a spa's audience is to narrow down what the TAM 
 ## Product/Service Constraints
 There are only certain products and services that will be available to a single person spa.
 
-### Services
 <!-- SERVICES START -->
+### Services
+- Premium Facial
+- European Facial
+- Express Facial
+- Lux Facial
+- Microderm Facial
+- Gentelmen's Facial
+- Hand Treatment
+- Lash Tint
+- Brow Tint
+- Retail Products
 <!-- SERVICES END -->
 
 ### Retail Products
