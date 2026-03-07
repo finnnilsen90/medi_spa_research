@@ -29,7 +29,7 @@ There are only certain products and services that will be available to a single 
 
 <!-- SERVICES START -->
 ### Services
-- emium Facial
+- Premium Facial
 - European Facial
 - Express Facial
 - Lux Facial
