@@ -25,7 +25,7 @@ It is important to consider who a spa's audience is to narrow down what the TAM 
 - **Gender:** Female
 
 ## Product/Service Constraints
-There are only certain products and services that will be available to a single person spa.
+There are only certain products and services that will be available to a single person spa. See below:
 
 <!-- SERVICES START -->
 ### Services
