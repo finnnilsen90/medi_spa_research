@@ -13,6 +13,8 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Install panndas
+        run: pip install pandas
       - run: python3 update_readme.py   # ← calls your Python file
       - run: |
           git config --global user.name "github-actions"
