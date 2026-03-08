@@ -1,5 +1,5 @@
 import re
-from MediSpaAssumptions import MediAssumptions
+from MediForecastAssumptions import MediAssumptions
 
 # Read existing README
 with open("README.md", "r") as f:
