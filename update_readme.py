@@ -1,19 +1,18 @@
 import re
-from MediForecastAssumptions import MediAssumptions
+from MediForecastAssumptions import MediForecastAssumptions
 
 # Read existing README
 with open("README.md", "r") as f:
     content = f.read()
 
 # Build services list
-service_list = "\n".join(f"- {i[0]}" for i in MediAssumptions().services.items())
+service_list = "\n".join(f"- {i[0]}" for i in MediForecastAssumptions().services.items())
 new_section_services = f"### Services\n{service_list}"
 
 # Build initial investment list
-new_initial_investment = f"${sum(MediAssumptions().initial_investment.values()):,}"
-
+new_initial_investment = f"${sum(MediForecastAssumptions().initial_investment.values()):,}"
 # Build monthly fixed cost list
-new_monthly_fixed_costs = f"${sum(MediAssumptions().fixed_opex.values()):,}"
+new_monthly_fixed_costs = f"${sum(MediForecastAssumptions().fixed_opex.values()):,}"
 
 # Replace section between markers
 updated_services = re.sub(
