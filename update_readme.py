@@ -12,6 +12,9 @@ new_section_services = f"### Services\n{service_list}"
 # Build initial investment list
 new_initial_investment = f"${sum(MediAssumptions().initial_investment.values()):,}"
 
+# Build monthly fixed cost list
+new_monthly_fixed_costs = f"${sum(MediAssumptions().fixed_opex.values()):,}"
+
 # Replace section between markers
 updated_services = re.sub(
     r"<!-- SERVICES START -->.*<!-- SERVICES END -->",
@@ -20,10 +23,17 @@ updated_services = re.sub(
     flags=re.DOTALL
 )
 
+updated_monthly_fixed_costs = re.sub(
+    r"<!-- MONTHLY_FIXED_COSTS START -->.*<!-- MONTHLY_FIXED_COSTS END -->",
+    f"<!-- MONTHLY_FIXED_COSTS START -->\n{new_monthly_fixed_costs}\n<!-- MONTHLY_FIXED_COSTS END -->",
+        content,
+    flags=re.DOTALL
+)
+
 final_update = re.sub(
     r"<!-- INITIAL_INVESTMENT START -->.*<!-- INITIAL_INVESTMENT END -->",
     f"<!-- INITIAL_INVESTMENT START -->\n{new_initial_investment}\n<!-- INITIAL_INVESTMENT END -->",
-    updated_services,
+    updated_monthly_fixed_costs,
     flags=re.DOTALL
 )
 

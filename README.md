@@ -6,8 +6,8 @@ The aesthetics industry hit $87 billion in 2025 and is expected to grow to $148 
 
 # Goals Fiscal Year One
 The goal is to make money via opening a spa, see breakdown below:
-- Revenue:
-- EBITA:
+- **Revenue:**
+- **EBITA:**
 
 # Constraints
 Below is a series of constraints that will need to be adhered to while conducting this analysis.
@@ -17,7 +17,9 @@ The most important constraint to consider is cost. Cost will be the main limitin
 - **Initial Investment:** <!-- INITIAL_INVESTMENT START -->
 $5,000
 <!-- INITIAL_INVESTMENT END -->
-- **Monthly Fixed Cost:**
+- **Monthly Fixed Cost:**<!-- MONTHLY_FIXED_COSTS START -->
+$5,800
+<!-- MONTHLY_FIXED_COSTS END -->
 
 ## Target Market
 It is important to consider who a spa's audience is to narrow down what the TAM is. See breakdown below:
